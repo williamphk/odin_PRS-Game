@@ -1,0 +1,55 @@
+html {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer {
+    margin-top: 300px;
+
+}
+
+.container .btnContainer button {
+    border: .4rem solid rgb(188, 210, 24);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 3rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    background: rgba(12, 68, 15, 0.694);
+    text-shadow: 0 0 .5rem black;
+}
+
+.container button {
+    border: .4rem solid rgb(210, 24, 102);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(166, 25, 191, 0.723);
+    text-shadow: 0 0 .5rem black;
+}
+
+.clicking {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
