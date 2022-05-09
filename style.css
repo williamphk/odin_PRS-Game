@@ -1,23 +1,59 @@
-html {
-    background-color: lightblue;
-    font-family: sans-serif;
-}
 body {
+    padding: 0;
     margin: 0;
     height: 100%;
     font-family: sans-serif;
+    background-color: rgb(108, 133, 201);
 }
 .container {
     display: flex;
-    margin-top: 30px;
     flex-direction: column;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
 }
 
-.btnContainer {
-    margin-top: 300px;
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(72, 114, 227);
+    padding: 30px 0px;
+}
+
+.container h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+    color: yellow;
+}
+
+p {
+    font-size: 30px;
+}
+
+.scoreBox {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.userSign, .compSign {
+    font-size: 5rem;
+    margin: 1rem;
+    width: 80px
+}
+
+.vs {
+    margin: 1rem;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+.container .btnContainer {
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -25,13 +61,14 @@ body {
     border: .4rem solid rgb(188, 210, 24);
     border-radius: .5rem;
     margin: 1rem;
-    font-size: 3rem;
+    font-size: 5rem;
     padding: 1rem .5rem;
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
     background: rgba(12, 68, 15, 0.694);
     text-shadow: 0 0 .5rem black;
+    cursor: pointer;
 }
 
 .container button {
@@ -46,6 +83,7 @@ body {
     color: white;
     background: rgba(166, 25, 191, 0.723);
     text-shadow: 0 0 .5rem black;
+    cursor: pointer;
 }
 
 .clicking {
